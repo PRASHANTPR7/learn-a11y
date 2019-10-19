@@ -11,17 +11,32 @@ main {
 
 .colors-one,
 .colors-one h2 {
-  color: #EBEA76;
+  color: #ebea76;
 }
 
 .colors-two,
 .colors-two h2 {
-  background: #00CD34;
-  color: #BC00BB;
+  background: #00cd34;
+  color: #bc00bb;
 }
 
 .colors-three,
 .colors-three h2 {
   background: green;
   color: red;
+}
+
+.skip-links {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  padding: 8px;
+  margin: 3px;
+  background-color;: #bc00bb;
+  color: white;
+  z-index: 9999;
+}
+
+.skip-links:focus {
+  top: 0;
 }
